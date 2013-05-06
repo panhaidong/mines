@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Mines</string>
+	<string name="app_name">Mines</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="fail_message">Oops, you failed, do you want to play again?</string>
+	<string name="success_message">Congratulations! do you want to play again?</string>
+	<string name="continue_message">Press OK to start</string>
+	<string name="menu_delete">Clear score</string>
+</resources>

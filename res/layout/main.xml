@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:gravity="center_vertical|center_horizontal"
+   android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<ImageView android:src="@drawable/pig" 
+	           android:layout_width="fill_parent" 
+	           android:layout_height="wrap_content"/>
+	<Button android:id="@+id/btn_startNewGame"
+	        android:text="Start a new Game"
+	        style="?android:attr/buttonStyleSmall" 
+		     android:layout_width="210dp"
+		     android:layout_height="wrap_content" 
+		     android:textSize="14sp" />
+	<Button android:id="@+id/btn_continueGame" 
+	        android:text="Continue the previous Game"
+	        style="?android:attr/buttonStyleSmall" 
+		     android:layout_width="210dp"
+		     android:layout_height="wrap_content"
+		     android:textSize="14sp" />
+	<Button android:id="@+id/btn_scores" 
+	        android:text="Scores"
+	        style="?android:attr/buttonStyleSmall" 
+		     android:layout_width="210dp"
+		     android:layout_height="wrap_content" 
+		     android:textSize="14sp" />
+</LinearLayout>
